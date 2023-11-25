@@ -9,7 +9,7 @@ struct MyStruct:
     var y: Int
 
 
-fn main() raises:
+fn slist_example() raises:
     # Create a list and add some elements
     var storage = slist[MyStruct]()
     storage.append(MyStruct("First Name", 0, 1))
@@ -30,3 +30,7 @@ fn main() raises:
     # Get the second element and pring x and y
     let second_element = storage[1]
     print(second_element.x, second_element.y)
+
+
+fn main() raises:
+    slist_example()
