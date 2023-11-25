@@ -190,5 +190,6 @@ fn main() raises:
     test_map()
     test_all_any()
     test_range()
+    test_reduce()
     test_bool()
     test_size()
