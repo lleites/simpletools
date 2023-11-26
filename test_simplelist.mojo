@@ -1,5 +1,5 @@
-from simplelist import SimpleList
-from simpletest import MojoTest
+from simpletools.simplelist import SimpleList
+from simpletools.simpletest import MojoTest
 
 
 @value

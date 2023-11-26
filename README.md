@@ -2,6 +2,12 @@
 
 This project aims to include simple but powerful utils and structures to simplify the Mojo development.
 
+## Installation
+
+Just paste to the root of your project the `simpletools.mojopkg` package file.
+
+To understand how to do imports check `example_usage.mojo`.
+
 ## SimpleList
 
 `SimpleList` is a generic data structure that provides a list-like interface for storing and manipulating data of any type. Think of `list` in Python but with extra methods.
@@ -47,7 +53,6 @@ Returns the number of items in the `SimpleList`.
 ### How to use
 
 There are multiple examples in the `test_simplelist.mojo` file.
-You can also check the `example_usage.mojo`
 
 ### FAQ
 

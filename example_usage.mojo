@@ -1,4 +1,4 @@
-from simplelist import SimpleList as slist
+from simpletools.simplelist import SimpleList as slist
 
 
 @value
